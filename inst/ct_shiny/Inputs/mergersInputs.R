@@ -8,10 +8,10 @@ mergersInputs <- function(nrows, type = c("Horizontal", "Vertical"), typeVertica
 
     inputData <- data.frame(
       Name = c("Prod1","Prod2","Prod3","Prod4"),
-      'Pre-merger\n Owner' = c("Firm1","Firm2","Firm3","Firm3"),
-      'Post-merger\n Owner' = c("Firm1","Firm1","Firm3","Firm3"),
+      'Pre-merger\n Owner' = c("Firm1","Firm2","Firm3","Firm4"),
+      'Post-merger\n Owner' = c("Firm1","Firm2","Firm3","Firm3"),
       'Prices \n($/unit)' = rep(10,4),
-      'Quantities' = c(0.4,.3,.2,.1)*100,
+      'Quantities' = rep(10,4),
       'Margins\n(p-c)/p' = c(0.5,NA,NA,NA),
       'Post-merger\n Cost Changes\n(Proportion)' = rep(0,4),
       stringsAsFactors = FALSE,

@@ -1,0 +1,10 @@
+name: ct_shiny
+title:
+username: egraycurtis
+account: egraycurtis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10500970
+bundleId: 7919226
+url: https://egraycurtis.shinyapps.io/ct_shiny/
+version: 1
